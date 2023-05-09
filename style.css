@@ -10,7 +10,7 @@ body{
     font-family: Nunito;
     src: url(/home/dsiu/.cache/.fr-5NVyZK/Nunito-VariableFont_wght.ttf);
 }
-
+/* -----Dashboard----- */
 .dashboard{
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -19,11 +19,7 @@ body{
     height: 100vh;
 }
 
-.header{
-    background-color: rgb(114, 161, 146);
-    grid-column: 2/4;
-}
-
+/* -----Sidebar----- */
 .sidebar{
     background-color: rgb(137, 200, 255);
     grid-row: 1/4;
@@ -53,13 +49,51 @@ body{
     align-items: start;
 }
 
+/* -----Header----- */
+.header{
+    background-color: rgb(114, 161, 146);
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+}
 
+.search{
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    background-color: beige;
+    display: grid;
+}
+
+.search > img{
+    grid-column: 1/2;
+    align-self: center;
+    width: auto;
+    height: 36px;
+    justify-self: end;
+}
+
+.search > input{
+    grid-column: 2/3;
+
+    border: 2px solid rgb(104, 104, 104);
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    width: auto;
+    height: 36px;
+    align-self: center;
+    margin: 0% 4%;
+    font-size: 16px;
+}
+
+/* -----Content----- */
 .content{
     background-color: rgb(184, 173, 112);
     grid-column: 2/4;
     grid-row: 2/4;
 }
 
+/* -----Footer----- */
 .footer{
     background-color: rgb(197, 108, 193);
     grid-column: 1/4;
