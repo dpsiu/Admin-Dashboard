@@ -104,7 +104,7 @@ body{
 
     border-radius: 50%;
     width: auto;
-    height: 70%;
+    height: 80%;
 }
 
 .greeting > .welcome{
@@ -112,6 +112,7 @@ body{
     grid-row: 1/2;
 
     font-size:medium;
+    margin-bottom: 0;
 }
 
 .greeting > .name{
@@ -120,11 +121,39 @@ body{
 
     font-weight: bold;
     font-size: large;
+
+    margin-top: 0;
 }
 
 .greeting > p{
     margin: 8px;
+    align-self: center;
 }
+
+/* -----Header.Profile----- */
+.profile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 2fr;
+    grid-template-rows: 1fr;
+}
+
+.profile > p{
+    align-self: center;
+    font-weight: bold;
+    margin-left: 6%;
+    font-size: large;
+}
+
+.profile > img{
+    justify-self: center;
+    align-self: center;
+    width: auto;
+    height: 36px;
+}
+
+/* -----Header.Actions----- */
+
+
 
 
 /* -----Content----- */
