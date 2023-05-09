@@ -33,10 +33,24 @@ body{
     font-size:x-large;
 }
 
+
+.menuItem{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.menuItem > img{
+    width: auto;
+    height: 55%;
+    margin-left: 35px;
+    align-self: center;
+}
+
 .menuItem > p{
-    margin: 0% 10% 0% 10%;
+    margin: 4% 10% 4% 6%;
     font-weight: bold;
     padding: 10px;
+    align-items: start;
 }
 
 
