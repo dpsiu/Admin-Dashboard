@@ -27,13 +27,14 @@ body{
 
 /* -----Sidebar----- */
 .sidebar{
-    background-color: #87b1f5;
+    background-color: #344969;
     grid-row: 1/4;
     z-index: 10;
 }
 
 #sidebarTitle > p{
     font-size:x-large;
+    color: white;
 }
 
 
@@ -43,11 +44,11 @@ body{
 }
 
 .menuItem:hover{
-    background-color: #74a2ec;
+    background-color: #56719c;
 }
 
 #sidebarTitle:hover{
-    background-color: #87b1f5;
+    background-color: #344969;
 }
 
 .menuItem > img{
@@ -55,6 +56,7 @@ body{
     height: 55%;
     margin-left: 35px;
     align-self: center;
+    filter: invert(100%);
 }
 
 .menuItem > p{
@@ -63,6 +65,7 @@ body{
     padding: 10px;
     align-items: start;
     font-family: berserker;
+    color: white;
 }
 
 /* -----Header----- */
@@ -410,7 +413,7 @@ button:hover{
 
 /* -----Footer----- */
 .footer{
-    background-color: #56719c;
+    background-color: #1f2d41;
     grid-column: 1/4;
     display: grid;
     grid-template-columns: 1fr;
@@ -431,6 +434,7 @@ a:hover{
     justify-self: center;
     align-self: center;
     color: rgb(245, 245, 245);
+    margin: 4px;
 }
 
 
